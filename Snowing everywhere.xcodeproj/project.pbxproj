@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042A387C2AF8986600F17FA4 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 042A387B2AF8986600F17FA4 /* RealityKitContent */; };
+		042A387E2AF8986600F17FA4 /* Snowing_everywhereApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A387D2AF8986600F17FA4 /* Snowing_everywhereApp.swift */; };
+		042A38802AF8986600F17FA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A387F2AF8986600F17FA4 /* ContentView.swift */; };
+		042A38822AF8986600F17FA4 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A38812AF8986600F17FA4 /* ImmersiveView.swift */; };
+		042A38842AF8986700F17FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042A38832AF8986700F17FA4 /* Assets.xcassets */; };
+		042A38872AF8986700F17FA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042A38862AF8986700F17FA4 /* Preview Assets.xcassets */; };
+		042A38922AF8986700F17FA4 /* Snowing_everywhereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A38912AF8986700F17FA4 /* Snowing_everywhereTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		042A388E2AF8986700F17FA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042A386E2AF8986600F17FA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042A38752AF8986600F17FA4;
+			remoteInfo = "Snowing everywhere";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042A38762AF8986600F17FA4 /* Snowing everywhere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snowing everywhere.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042A387A2AF8986600F17FA4 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		042A387D2AF8986600F17FA4 /* Snowing_everywhereApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snowing_everywhereApp.swift; sourceTree = "<group>"; };
+		042A387F2AF8986600F17FA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		042A38812AF8986600F17FA4 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		042A38832AF8986700F17FA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042A38862AF8986700F17FA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		042A38882AF8986700F17FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042A388D2AF8986700F17FA4 /* Snowing everywhereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snowing everywhereTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042A38912AF8986700F17FA4 /* Snowing_everywhereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snowing_everywhereTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042A38732AF8986600F17FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042A387C2AF8986600F17FA4 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042A388A2AF8986700F17FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042A386D2AF8986600F17FA4 = {
+			isa = PBXGroup;
+			children = (
+				042A38782AF8986600F17FA4 /* Snowing everywhere */,
+				042A38792AF8986600F17FA4 /* Packages */,
+				042A38902AF8986700F17FA4 /* Snowing everywhereTests */,
+				042A38772AF8986600F17FA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		042A38772AF8986600F17FA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042A38762AF8986600F17FA4 /* Snowing everywhere.app */,
+				042A388D2AF8986700F17FA4 /* Snowing everywhereTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042A38782AF8986600F17FA4 /* Snowing everywhere */ = {
+			isa = PBXGroup;
+			children = (
+				042A387D2AF8986600F17FA4 /* Snowing_everywhereApp.swift */,
+				042A387F2AF8986600F17FA4 /* ContentView.swift */,
+				042A38812AF8986600F17FA4 /* ImmersiveView.swift */,
+				042A38832AF8986700F17FA4 /* Assets.xcassets */,
+				042A38882AF8986700F17FA4 /* Info.plist */,
+				042A38852AF8986700F17FA4 /* Preview Content */,
+			);
+			path = "Snowing everywhere";
+			sourceTree = "<group>";
+		};
+		042A38792AF8986600F17FA4 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				042A387A2AF8986600F17FA4 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		042A38852AF8986700F17FA4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				042A38862AF8986700F17FA4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		042A38902AF8986700F17FA4 /* Snowing everywhereTests */ = {
+			isa = PBXGroup;
+			children = (
+				042A38912AF8986700F17FA4 /* Snowing_everywhereTests.swift */,
+			);
+			path = "Snowing everywhereTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042A38752AF8986600F17FA4 /* Snowing everywhere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042A38952AF8986700F17FA4 /* Build configuration list for PBXNativeTarget "Snowing everywhere" */;
+			buildPhases = (
+				042A38722AF8986600F17FA4 /* Sources */,
+				042A38732AF8986600F17FA4 /* Frameworks */,
+				042A38742AF8986600F17FA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snowing everywhere";
+			packageProductDependencies = (
+				042A387B2AF8986600F17FA4 /* RealityKitContent */,
+			);
+			productName = "Snowing everywhere";
+			productReference = 042A38762AF8986600F17FA4 /* Snowing everywhere.app */;
+			productType = "com.apple.product-type.application";
+		};
+		042A388C2AF8986700F17FA4 /* Snowing everywhereTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042A38982AF8986700F17FA4 /* Build configuration list for PBXNativeTarget "Snowing everywhereTests" */;
+			buildPhases = (
+				042A38892AF8986700F17FA4 /* Sources */,
+				042A388A2AF8986700F17FA4 /* Frameworks */,
+				042A388B2AF8986700F17FA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042A388F2AF8986700F17FA4 /* PBXTargetDependency */,
+			);
+			name = "Snowing everywhereTests";
+			productName = "Snowing everywhereTests";
+			productReference = 042A388D2AF8986700F17FA4 /* Snowing everywhereTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042A386E2AF8986600F17FA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					042A38752AF8986600F17FA4 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					042A388C2AF8986700F17FA4 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 042A38752AF8986600F17FA4;
+					};
+				};
+			};
+			buildConfigurationList = 042A38712AF8986600F17FA4 /* Build configuration list for PBXProject "Snowing everywhere" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042A386D2AF8986600F17FA4;
+			productRefGroup = 042A38772AF8986600F17FA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042A38752AF8986600F17FA4 /* Snowing everywhere */,
+				042A388C2AF8986700F17FA4 /* Snowing everywhereTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042A38742AF8986600F17FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042A38872AF8986700F17FA4 /* Preview Assets.xcassets in Resources */,
+				042A38842AF8986700F17FA4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042A388B2AF8986700F17FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042A38722AF8986600F17FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042A38802AF8986600F17FA4 /* ContentView.swift in Sources */,
+				042A387E2AF8986600F17FA4 /* Snowing_everywhereApp.swift in Sources */,
+				042A38822AF8986600F17FA4 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042A38892AF8986700F17FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042A38922AF8986700F17FA4 /* Snowing_everywhereTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		042A388F2AF8986700F17FA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042A38752AF8986600F17FA4 /* Snowing everywhere */;
+			targetProxy = 042A388E2AF8986700F17FA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		042A38932AF8986700F17FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		042A38942AF8986700F17FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		042A38962AF8986700F17FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Snowing everywhere/Preview Content\"";
+				DEVELOPMENT_TEAM = C6FNJ9X2B7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dallonjarman.Snowing-everywhere";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		042A38972AF8986700F17FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Snowing everywhere/Preview Content\"";
+				DEVELOPMENT_TEAM = C6FNJ9X2B7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dallonjarman.Snowing-everywhere";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		042A38992AF8986700F17FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6FNJ9X2B7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dallonjarman.Snowing-everywhereTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snowing everywhere.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Snowing everywhere";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		042A389A2AF8986700F17FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6FNJ9X2B7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dallonjarman.Snowing-everywhereTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snowing everywhere.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Snowing everywhere";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042A38712AF8986600F17FA4 /* Build configuration list for PBXProject "Snowing everywhere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042A38932AF8986700F17FA4 /* Debug */,
+				042A38942AF8986700F17FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042A38952AF8986700F17FA4 /* Build configuration list for PBXNativeTarget "Snowing everywhere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042A38962AF8986700F17FA4 /* Debug */,
+				042A38972AF8986700F17FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042A38982AF8986700F17FA4 /* Build configuration list for PBXNativeTarget "Snowing everywhereTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042A38992AF8986700F17FA4 /* Debug */,
+				042A389A2AF8986700F17FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		042A387B2AF8986600F17FA4 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 042A386E2AF8986600F17FA4 /* Project object */;
+}
